@@ -45,7 +45,6 @@ class: center, middle
 <br><br>
 
 Presented by *Anil Kumar Joshi"  WhiteGiraffe Technologies*
-Mob: 7795-97-9379
       
 <div>
   <img src="WhiteGiraffe.jpg" style="max-width: 20%; border:0; box-shadow: none;" alt="WhiteGiraffe logo">
@@ -88,7 +87,7 @@ Mob: 7795-97-9379
 ```
 $ whoami
 Anil Kumar Joshi 
-Exprience : I 'm Engineer and for a real engineer's daily new learning is fresh experience.
+Exprience : I 'm Engineer only.
 ```
 --
 
@@ -161,6 +160,36 @@ The end goal of this post is to organize the technologies from the above image i
 --
 
 - **WARNING: They are hard!**
+      
+      
+##### (1) Users - http://localhost:3008
+
+| Endpoint        | HTTP Method | CRUD Method | Result        |
+|-----------------|-------------|-------------|---------------|
+| /users/ping     | GET         | READ        | `pong`        |
+| /users/register | POST        | CREATE      | add a user    |
+| /users/login    | POST        | CREATE      | log in a user |
+| /users/user     | GET         | READ        | get user info |
+
+##### (2) Movies - http://localhost:3009
+
+| Endpoint      | HTTP Method | CRUD Method | Result                    |
+|---------------|-------------|-------------|---------------------------|
+| /movies/ping  | GET         | READ        | `pong`                    |
+| /movies/user  | GET         | READ        | get all movies by user    |
+| /movies       | POST        | CREATE      | add a single movie        |
+
+##### (3) Web - http://localhost:3007
+
+| Endpoint   | HTTP Method | CRUD Method | Result                  |
+|-------------|-------------|-------------|------------------------|
+| /           | GET         | READ        | render main page       |
+| /login      | GET         | READ        | render login page      |
+| /register   | GET         | READ        | render register page   |
+| /logout     | GET         | READ        | log a user out         |
+| /collection | GET         | READ        | render collection page |
+
+##### (4) Movies Database and (5) Users Database
 
 ---
 
